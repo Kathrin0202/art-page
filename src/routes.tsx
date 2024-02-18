@@ -1,0 +1,16 @@
+import { FC } from "react";
+import { Route, Routes } from "react-router-dom";
+import { ArtPage } from "./pages/artPage";
+import { Main } from "./pages/main";
+import { NotFound } from "./pages/notFound";
+
+const AppRoutes: FC = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/:id" element={<ArtPage />} />
+      <Route path="/*" element={<NotFound />} />
+    </Routes>
+  );
+};
+export default AppRoutes;
