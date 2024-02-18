@@ -9,7 +9,7 @@ const AppRoutes: FC = () => {
     <Routes>
       <Route path="/art-page" element={<Main />} />
       <Route path="/art-page/:id" element={<ArtPage />} />
-      <Route path="/art-page/*" element={<NotFound />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 };
