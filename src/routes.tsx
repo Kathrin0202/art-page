@@ -8,7 +8,7 @@ const AppRoutes: FC = () => {
   return (
     <Routes>
       <Route path="/art-page" element={<Main />} />
-      <Route path="/art-page/:id" element={<ArtPage />} />
+      <Route path="/:id" element={<ArtPage />} />
       <Route path="/*" element={<NotFound />} />
     </Routes>
   );

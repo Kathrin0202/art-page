@@ -12,7 +12,7 @@ export const ArtCard = ({ card }: any) => {
   const [like, setLike] = useState(false);
 
   const handleCardLink = (id: number) => {
-    navigate(`art-page/${id}`);
+    navigate(`${id}`);
     getArtCard(id)
       .then((cards) => {
         dispatch(setCardDetails(cards));
