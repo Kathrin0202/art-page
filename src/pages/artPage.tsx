@@ -6,7 +6,7 @@ import back from "../styled/img/eva_arrow.png";
 export const ArtPage = () => {
   let navigate = useNavigate();
   const handleClickMain = () => {
-    navigate("/");
+    navigate("/art-page");
   };
   const param = useParams();
   const cards = useAppSelector((state) => state.card.data);

@@ -9,7 +9,7 @@ export const NotFound = () => {
         <S.NotFoundCardText>
           Возможно, она была удалена или перенесена на другой адрес
         </S.NotFoundCardText>
-        <Link to="/">
+        <Link to="/art-page">
           <S.NotFoundCardBtn>Вернуться на главную</S.NotFoundCardBtn>
         </Link>
       </S.NotFoundCard>
