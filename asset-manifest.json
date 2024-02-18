@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/art-page/static/css/main.e6c13ad2.css",
+    "main.js": "/art-page/static/js/main.ed1a684f.js",
+    "index.html": "/art-page/index.html",
+    "main.e6c13ad2.css.map": "/art-page/static/css/main.e6c13ad2.css.map",
+    "main.ed1a684f.js.map": "/art-page/static/js/main.ed1a684f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ed1a684f.js"
+  ]
+}
